@@ -1,13 +1,5 @@
 {
   "files": [],
-  "compilerOptions": {
-    "baseUrl": "src",
-    "paths": {
-      "@components/*": [
-        "components/*"
-      ],
-    }
-  },
   "references": [
     {
       "path": "./tsconfig.app.json"
@@ -15,5 +7,13 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "paths": {
+      "@components/*": [
+        "./src/components/*"
+      ]
+    }
+  }
 }
