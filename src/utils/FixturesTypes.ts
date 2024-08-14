@@ -106,8 +106,13 @@ export enum Name {
 }
 
 export interface Score {
-  halftime: Goals;
-  fulltime: Goals;
-  extratime: Goals;
-  penalty: Goals;
+  halftime: ScoreGoals;
+  fulltime: ScoreGoals;
+  extratime: ScoreGoals;
+  penalty: ScoreGoals;
+}
+
+export interface ScoreGoals {
+  away: number | null;
+  home: number | null;
 }

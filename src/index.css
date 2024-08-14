@@ -27,3 +27,23 @@ button {
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }
+
+.statusClass {
+  background: url('./assets/sprite-tabela.svg') 0 0;
+  width: 8px;
+  height: 10px;
+}
+
+.status-up {
+  background-position: left 0;
+}
+
+.status-down {
+  background-position: right 2px;
+}
+
+.status-same {
+  background: none;
+  background-color: #ccc;
+  height: 7px;
+}
