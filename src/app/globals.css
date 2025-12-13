@@ -7,5 +7,7 @@ body {
 }
 
 body {
-  @apply bg-black text-white antialiased;
+  background-color: #0b0b0b;
+  color: white;
+  -webkit-font-smoothing: antialiased;
 }

@@ -1,8 +1,9 @@
+import { Header } from './components/layout/Header';
 import './globals.css';
 
 export const metadata = {
   title: 'Quando Joga',
-  description: 'Jogos, classificação e informações do Athlético',
+  description: 'Jogos e classificação do Athlético',
 };
 
 export default function RootLayout({
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
